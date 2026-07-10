@@ -1,7 +1,24 @@
 {
-  "name": "virtual-elve-helper",
+  "name": "nextjs-convex-clerk-stripe-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Production-ready Next.js + Convex + Clerk + Stripe boilerplate for shipping full-stack apps fast",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkcoms/nextjs-convex-clerk-stripe-boilerplate.git"
+  },
+  "keywords": [
+    "nextjs",
+    "convex",
+    "clerk",
+    "stripe",
+    "tailwind",
+    "shadcn",
+    "boilerplate",
+    "saas",
+    "typescript"
+  ],
   "scripts": {
     "dev": "npm-run-all --parallel dev:frontend dev:backend",
     "dev:frontend": "next dev",

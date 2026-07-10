@@ -1,8 +1,8 @@
 /**
- * Benji's Store - Stripe Integration
+ * Stripe integration via @convex-dev/stripe
  *
- * This file demonstrates how to use the @convex-dev/stripe component
- * for handling payments and subscriptions with Clerk authentication.
+ * Checkout, subscriptions, and customer portal actions linked to the
+ * current Clerk user. See docs/STRIPE.md for setup and usage.
  */
 
 import { action, mutation, query } from "./_generated/server";
